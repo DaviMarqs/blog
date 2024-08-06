@@ -4,23 +4,20 @@ export default function AboutPage() {
       <h1 className="my-12 font-bold">About</h1>
       <article>
         <p>
-          I am a brazilian software engineer with a passion for creating things
-          from zero. I am currently pursuing a degree in computer science at
-          UniAmerica, Brazil.
+          I am a Brazilian software engineer passionate about creating things
+          and solving problems. I am currently studying Information Systems and
+          working as a Full Stack Developer.
         </p>
         <p>
-          In my free time I enjoy travelling, swimming, running and playing
-          music. I actually have released songs that you can check out{" "}
-          <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=cfbe06670e1746bf">
-            on my Spotify page.
-          </a>
+          In my free time, I enjoy traveling, reading, playing games, working
+          out, and listening to music.
         </p>
         <p>
           Thank you for visiting my website. I hope you find it informative and
           enjoyable. You can contact me at{" "}
-          <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
+          <a href="mailto:davi.amqs@hotmail.com">davi.amqs@hotmail.com</a>.
         </p>
-        <p>Luke Berry</p>
+        <p>Davi Marques</p>
       </article>
     </>
   );

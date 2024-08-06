@@ -2,9 +2,7 @@ import {
   SiGithub,
   SiInstagram,
   SiLinkedin,
-  SiSpotify,
-  SiTwitter,
-  SiYoutube,
+  SiTwitter
 } from "@icons-pack/react-simple-icons";
 import { ArrowRight, ArrowUpRight, Download } from "lucide-react";
 import Link from "next/link";
@@ -19,32 +17,22 @@ interface Link {
 const externalLinks = [
   {
     description: "LinkedIn",
-    url: "https://linkedin.com/in/lukeberrypi",
+    url: "https://www.linkedin.com/in/davi-aldivino-marques/",
     Icon: <SiLinkedin />,
   },
   {
     description: "GitHub",
-    url: "https://github.com/LukeberryPi",
+    url: "https://github.com/DaviMarqs",
     Icon: <SiGithub />,
   },
   {
-    description: "Youtube",
-    url: "https://youtube.com/@LukeberryPi",
-    Icon: <SiYoutube />,
-  },
-  {
     description: "X / Twitter",
-    url: "https://twitter.com/LukeberryPi",
+    url: "https://github.com/DaviMarqs",
     Icon: <SiTwitter />,
   },
   {
-    description: "Spotify",
-    url: "https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=Ci9I2yhCSY-BfEjtqZuFqQ",
-    Icon: <SiSpotify />,
-  },
-  {
     description: "Instagram",
-    url: "https://instagram.com/LukeberryPi",
+    url: "https://instagram.com/marqsdav",
     Icon: <SiInstagram />,
   },
 ] as Link[];
@@ -55,7 +43,7 @@ const ExternalLink = (link: Link) => {
       key={link.description}
       href={link.url}
       target="_blank"
-      className="flex items-center justify-between ring-1 ring-zinc-950 p-4 hover:bg-zinc-200 transition-all"
+      className="flex items-center justify-between ring-1 ring-zinc-950 p-4 hover:bg-yellow-200 transition-all"
     >
       <span className="flex items-center gap-4">
         {link.Icon} {link.description}
@@ -112,14 +100,14 @@ export default function HomePage() {
         </div>
         <div className="flex gap-2 flex-col">
           <a
-            href="/luke-berry-cv.pdf"
-            download="Luke-Berry-CV.pdf"
-            className="bg-zinc-950 p-4 text-zinc-100 flex items-center gap-4 hover:bg-zinc-700 transition-all active:tranzinc-y-1"
+            href="/davi-marques-cv.pdf"
+            download="Davi-Marques-CV.pdf"
+            className="bg-zinc-950 p-4 text-[#fefbbd] flex items-center gap-4 hover:bg-zinc-700 transition-all active:tranzinc-y-1"
           >
             Download my CV
             <Download className="size-5" />
           </a>
-          <span className="text-zinc-500">It&apos;s only one page.</span>
+          <span className="text-zinc-700">It&apos;s only one page.</span>
         </div>
       </div>
     </div>

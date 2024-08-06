@@ -15,7 +15,7 @@
 @layer base {
   html,
   body {
-    @apply bg-zinc-50 text-zinc-950;
+    @apply bg-[#fefbbd] text-zinc-950;
   }
 
   article > h1,

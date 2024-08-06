@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import Link from "next/link";
-import "./globals.css";
-// import { Sun } from "lucide-react";
 import { ScrollToTop } from "../components/scroll-to-top";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LukeberryPi's Blog",
-  description: "LukberryPi's Blog",
+  title: "Marques's Blog",
+  description: "Marques's Blog",
 };
 
 const karla = Karla({
@@ -26,11 +25,10 @@ export default function RootLayout({
         <header className="max-w-prose mx-auto mb-8">
           <nav className="flex items-center justify-between">
             <Link className="flex flex-col no-underline" href="/">
-              <span className="font-bold">LukeberryPi</span>
+              <span className="font-bold">Davi Marques</span>
               Software Engineer
             </Link>
             <div className="items-center flex gap-4">
-              {/* <button><Sun className="size-5" /></button> */}
               <Link href="/">Home</Link>
               <Link href="/projects">Projects</Link>
               <Link href="/articles">Articles</Link>
