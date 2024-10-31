@@ -27,7 +27,7 @@ const externalLinks = [
   },
   {
     description: "X / Twitter",
-    url: "https://github.com/DaviMarqs",
+    url: "https://twitter.com/marqsdav",
     Icon: <SiTwitter />,
   },
   {
@@ -101,7 +101,7 @@ export default function HomePage() {
         <div className="flex gap-2 flex-col">
           <a
             href="/davi-marques-cv.pdf"
-            download="Davi-Marques-CV.pdf"
+            download="davi-marques-cv.pdf"
             className="bg-zinc-950 p-4 text-[#fefbbd] flex items-center gap-4 hover:bg-zinc-700 transition-all active:tranzinc-y-1"
           >
             Download my CV
