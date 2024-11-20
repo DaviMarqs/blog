@@ -66,7 +66,7 @@
 
   header a,
   article a {
-    @apply underline underline-offset-2 decoration-2 decoration-emerald-600;
+    @apply underline underline-offset-2 decoration-2 decoration-[#006D77];
   }
 
   button,
